@@ -20,20 +20,20 @@ DEPS = {
 
     "protoc_gen_grpc_java_linux_x86_64": {
         "rule": "http_file",
-        "url": "https://repo1.maven.org/maven2/io/grpc/protoc-gen-grpc-java/1.9.0/protoc-gen-grpc-java-1.9.0-linux-x86_64.exe",
-        "sha256": "f20cc8c052eea904c5a979c140237696e3f187f35deac49cd70b16dc0635f463",
+        "url": "https://repo1.maven.org/maven2/io/grpc/protoc-gen-grpc-java/1.12.0/protoc-gen-grpc-java-1.12.0-linux-x86_64.exe",
+        "sha256": "09d31547d1ed6bb9ed0bc404a59cf27aeec76d35ba890e6fe5e5d4f4a3d5e133",
     },
 
     "protoc_gen_grpc_java_macosx": {
         "rule": "http_file",
-        "url": "http://central.maven.org/maven2/io/grpc/protoc-gen-grpc-java/1.9.0/protoc-gen-grpc-java-1.9.0-osx-x86_64.exe",
-        "sha256": "593937361f99e8b145fe29c78c71cdd00e8327ae88de010729479eb2acdc1de9",
+        "url": "http://central.maven.org/maven2/io/grpc/protoc-gen-grpc-java/1.12.0/protoc-gen-grpc-java-1.12.0-osx-x86_64.exe",
+        "sha256": "57cc43dcd18096f2523032b66e648e352f51c5485fa00cc7e4faa4e43e51bd49",
     },
 
     "protoc_gen_grpc_java_windows_x86_64": {
         "rule": "http_file",
-        "url": "https://repo1.maven.org/maven2/io/grpc/protoc-gen-grpc-java/1.9.0/protoc-gen-grpc-java-1.9.0-windows-x86_64.exe",
-        "sha256": "28ee62f58f14fa1d33666e02c2c9dcca77ea98427446543c0ba00b7ea597d292",
+        "url": "https://repo1.maven.org/maven2/io/grpc/protoc-gen-grpc-java/1.12.0/protoc-gen-grpc-java-1.12.0-windows-x86_64.exe",
+        "sha256": "f9141d12238441d1c246a7f0d11ef7a57af1a26d6f94492a7ca8dc63f34294e9",
     },
 
     # ######################
@@ -114,43 +114,43 @@ DEPS = {
     },
     'io_grpc_grpc_all': {
         'rule': 'maven_jar',
-        'artifact': 'io.grpc:grpc-all:1.9.0',
+        'artifact': 'io.grpc:grpc-all:1.12.0',
         'sha1': '442dfac27fd072e15b7134ab02c2b38136036090',
     },
     'io_grpc_grpc_auth': {
         'rule': 'maven_jar',
-        'artifact': 'io.grpc:grpc-auth:1.9.0',
+        'artifact': 'io.grpc:grpc-auth:1.12.0',
         'sha1': 'd2eadc6d28ebee8ec0cef74f882255e4069972ad',
     },
     'io_grpc_grpc_context': {
         'rule': 'maven_jar',
-        'artifact': 'io.grpc:grpc-context:1.9.0',
-        'sha1': '28b0836f48c9705abf73829bbc536dba29a1329a',
+        'artifact': 'io.grpc:grpc-context:1.12.0',
+        'sha1': '5b63a170b786051a42cce08118d5ea3c8f60f749',
     },
     'io_grpc_grpc_core': {
         'rule': 'maven_jar',
-        'artifact': 'io.grpc:grpc-core:1.9.0',
-        'sha1': 'cf76ab13d35e8bd5d0ffad6d82bb1ef1770f050c',
+        'artifact': 'io.grpc:grpc-core:1.12.0',
+        'sha1': '541a5c68ce85c03190e29bc9e0ec611d2b75ff24',
     },
     'io_grpc_grpc_netty': {
         'rule': 'maven_jar',
-        'artifact': 'io.grpc:grpc-netty:1.9.0',
-        'sha1': '8157384d87497dc18604a5ba3760763fe643f16e',
+        'artifact': 'io.grpc:grpc-netty:1.12.0',
+        'sha1': 'a4dfc839dae9206c0d1f8b53657c2a8e4a81ad41',
     },
     'io_grpc_grpc_okhttp': {
         'rule': 'maven_jar',
-        'artifact': 'io.grpc:grpc-okhttp:1.9.0',
+        'artifact': 'io.grpc:grpc-okhttp:1.12.0',
         'sha1': '4e7fbb9d3cd65848f42494de165b1c5839f69a8a',
     },
     'io_grpc_grpc_protobuf': {
         'rule': 'maven_jar',
-        'artifact': 'io.grpc:grpc-protobuf:1.9.0',
-        'sha1': '94ca247577e4cf1a38d5ac9d536ac1d426a1ccc5',
+        'artifact': 'io.grpc:grpc-protobuf:1.12.0',
+        'sha1': 'fbee015b681b5342e72fe40f88eae9dd6cbce206',
     },
     'io_grpc_grpc_protobuf_lite': {
         'rule': 'maven_jar',
-        'artifact': 'io.grpc:grpc-protobuf-lite:1.9.0',
-        'sha1': '9dc9c6531ae0b304581adff0e9b7cff21a4073ac',
+        'artifact': 'io.grpc:grpc-protobuf-lite:1.12.0',
+        'sha1': 'f5bebfbd5e93b8bbb58888a5cfaa9f490fb7b455',
     },
     'io_grpc_grpc_protobuf_nano': {
         'rule': 'maven_jar',
@@ -159,8 +159,8 @@ DEPS = {
     },
     'io_grpc_grpc_stub': {
         'rule': 'maven_jar',
-        'artifact': 'io.grpc:grpc-stub:1.9.0',
-        'sha1': '20e310f888860a27dfa509a69eebb236417ee93f',
+        'artifact': 'io.grpc:grpc-stub:1.12.0',
+        'sha1': 'fbd2bafe09a89442ab3d7a8d8b3e8bafbd59b4e0',
     },
     'io_netty_netty_buffer': {
         'rule': 'maven_jar',
