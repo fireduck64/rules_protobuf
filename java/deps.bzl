@@ -79,8 +79,8 @@ DEPS = {
     },
     'com_google_guava_guava': {
         'rule': 'maven_jar',
-        'artifact': 'com.google.guava:guava:25.0-jre',
-        'sha1': '7319c34fa5866a85b6bad445adad69d402323129',
+        'artifact': 'com.google.guava:guava:26.0-android',
+        'sha1': 'ef69663836b339db335fde0df06fb3cd84e3742b',
     },
     'com_google_instrumentation_instrumentation_api': {
         'rule': 'maven_jar',
